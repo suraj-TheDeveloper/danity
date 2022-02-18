@@ -1,0 +1,126 @@
+.site-title {
+    font-family: 'Sofia', cursive;
+}
+@font-face {
+    font-family: headquick;
+    src: url("../fonts/quick/static/Quicksand-Medium.ttf");
+}
+@font-face {
+    font-family: headlight;
+    src: url("../fonts/quick/static/Quicksand-Light.ttf");
+}
+.nav-link {
+    font-family: headquick;
+}
+.title {
+    font-family: headquick;
+}
+.activate {   
+    width: auto;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    color: var(--bs-white);
+}
+@media (max-width: 576px) {
+    .site-title {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .btn-outline-dark {
+        margin-left: 20px;
+    }
+    .heading {
+        font-family: headquick;
+        margin-top: 140px;
+        font-size: 40px;
+    }
+    .para {
+        font-family: headlight;
+        margin-top: 10px;
+    }
+    .footer {
+        height: 350px;
+        background-color: #0F0A0A;
+    }
+}
+@media (min-width: 576px) { 
+    .site-title {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .btn-outline-dark {
+        margin-left: 20px;
+    }
+    .heading {
+        font-family: headquick;
+        margin-top: 140px;
+        font-size: 40px;
+    }
+    .para {
+        font-family: headlight;
+        margin-top: 10px;
+    }
+    .footer {
+        height: 350px;
+        background-color: #0F0A0A;
+    }
+}
+@media (min-width: 768px) { 
+    .site-title {
+        margin-top: 140px;
+        text-align: center;
+        font-size: 50px;
+    }
+    .btn-outline-dark {
+        margin-left: 30px;
+    }
+    .para {
+        font-family: headlight;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 992px) { 
+    .site-title {
+        margin-top: 140px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .btn-outline-dark {
+        margin-left: 40px;
+    }
+    .para {
+        font-family: headlight;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1200px) { 
+    .site-title {
+        margin-top: 120px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .btn-outline-dark {
+        margin-left: 50px;
+    }
+    .para {
+        font-family: headlight;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1400px) { 
+    .site-title {
+        margin-top: 120px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .btn-outline-dark {
+        margin-left: 50px;
+    }
+    .para {
+        font-family: headlight;
+        margin-top: 10px;
+    }
+}
