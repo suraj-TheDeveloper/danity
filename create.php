@@ -15,31 +15,9 @@
         <script src="styles/js/jquery-3.6.0.js"></script>
     </head>
     <body style="background-color: #EFEFEF;" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow">
-            <a href="#" class="navbar-brand p-4"><img src="styles/images/danity Logo.png" style="width: 50px; height: 50px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span style="color: white;" class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ms-auto me-5">
-                    <li class="nav-item">
-                        <a href="index.php" class="nav-link">Service List</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="create.html" class="nav-link activate text-white">Add Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="cart.php" class="nav-link">Cart List</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="business.php" class="nav-link">Business Report</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="client.php" class="nav-link">Client List</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <?php
+        include("navigation.html");
+    ?>
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-md-4">
