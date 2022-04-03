@@ -17,13 +17,13 @@ $(document).ready(function(){
                 dataType: 'html',
                 data: forms,
                 success: function(data) {
-                    console.log(data);
-                    // if(data == "Inserted") {
-                    //     $("#success").html("Service Created");
-                    //     window.location.href = 'index.php';
-                    // } else {
-                    //     $("#fail").html("Service not Created");
-                    // }
+                    // console.log(data);
+                    var type = typeof data;
+                    if(type == "string") {
+                        window.location.href = `final.php?id=${data}`;
+                    } else {
+                        $("#fail").html("Service not Created");
+                    }
                 }
             })
         }

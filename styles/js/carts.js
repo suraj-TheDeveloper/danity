@@ -12,16 +12,16 @@ $(document).ready(function(){
             dataType: 'html',
             data: forms,
             success: function(data) {
-                console.log(data);
-                // if(data == "Inserted") {
-                //     $("#button").removeClass("btn-outline-primary");
-                //     $("#button").addClass("btn-outline-success");
-                //     $("#button").html("Added to cart");
-                // } else {
-                //     $("#button").removeClass("btn-outline-primary");
-                //     $("#button").addClass("btn-outline-danger");
-                //     $("#button").html("Failed");
-                // }
+                // console.log(data);
+                if(data == "Inserted") {
+                    $("#button").removeClass("btn-outline-primary");
+                    $("#button").addClass("btn-outline-success");
+                    $("#button").html("Added to cart");
+                } else {
+                    $("#button").removeClass("btn-outline-primary");
+                    $("#button").addClass("btn-outline-danger");
+                    $("#button").html("Failed");
+                }
             }
         })
     });
