@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Danity Tattoo's And Unisex Beauty Parlour</title>
+        <title>Danity Tattoo's And Beauty Parlour</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/bootstrap-5.0.2-dist/css/bootstrap.css">
@@ -16,31 +16,9 @@
         <script type="text/javascript" charset="utf8" src="styles/datatables.min.js"></script>
     </head>
     <body style="background-color: #EFEFEF;" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow">
-            <a href="#" class="navbar-brand p-4"><img src="styles/images/danity Logo.png" style="width: 50px; height: 50px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span style="color: white;" class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ms-auto me-5">
-                    <li class="nav-item">
-                        <a href="index.php" class="nav-link">Service List</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="create.html" class="nav-link">Add Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="cart.php" class="nav-link  activate text-white">Cart List</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="business.php" class="nav-link">Business Report</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="client.php" class="nav-link">Client List</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <?php
+        include("navigation.html");
+    ?>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6">
